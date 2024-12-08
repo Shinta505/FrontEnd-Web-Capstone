@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - EcoPlan</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <aside id="sidebar">
+        <ul>
+            <li>
+                <span class="logo">EcoPlan</span>
+                <i onclick="toggleSidebar()" id="toggle-btn" class='bx bx-chevron-right'></i>
+            </li>
+            <li><a href="dashboard.html"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+            <li class="active"><a href="profile.html"><i class='bx bx-user'></i>Profile</a></li>
+            <li><a href="deteksi-sampah.html"><i class='bx bx-camera'></i>Deteksi Sampah</a></li>
+            <li><a href="video.html"><i class='bx bx-video'></i>Video Pengolahan Sampah</a></li>
+            <li><a href="#"><i class='bx bx-exit'></i>Logout</a></li>
+        </ul>
+    </aside>
+
+    <div class="container-profile">
+        <div class="profile-picture">
+            <img alt="Profile Picture" height="60"
+                src="#"
+                width="60" />
+            <button class="change-picture">
+                Change picture
+            </button>
+            <button class="delete-picture">
+                Delete Picture
+            </button>
+        </div>
+        <div class="form-group">
+            <label for="profile-name">
+                Profile name
+            </label>
+            <input id="profile-name" name="profile-name" type="text" />
+        </div>
+        <div class="form-group">
+            <label for="profile-phone">
+                Profile Phone
+            </label>
+            <input id="profile-phone" name="profile-phone" type="text" />
+        </div>
+        <div class="form-group inline">
+            <div>
+                <label for="old-password">
+                    Old Password
+                </label>
+                <input id="old-password" name="old-password" type="password" />
+            </div>
+            <div>
+                <label for="new-password">
+                    New Password
+                </label>
+                <input id="new-password" name="new-password" type="password" />
+            </div>
+        </div>
+        <div class="save-change">
+            <button>
+                Save Change
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

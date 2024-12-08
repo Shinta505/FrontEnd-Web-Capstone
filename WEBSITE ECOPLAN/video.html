@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video - EcoPlan</title>
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <aside id="sidebar">
+        <ul>
+            <li>
+                <span class="logo">EcoPlan</span>
+                <i onclick="toggleSidebar()" id="toggle-btn" class='bx bx-chevron-right'></i>
+            </li>
+            <li><a href="dashboard.html"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+            <li><a href="profile.html"><i class='bx bx-user'></i>Profile</a></li>
+            <li><a href="deteksi-sampah.html"><i class='bx bx-camera'></i>Deteksi Sampah</a></li>
+            <li class="active"><a href="video.html"><i class='bx bx-video'></i>Video Pengolahan Sampah</a></li>
+            <li><a href="#"><i class='bx bx-exit'></i>Logout</a></li>
+        </ul>
+    </aside>
+    <div class="container-video">
+        <h3 class="heading">Video Gallery</h3>
+        <div class="container-videos">
+            <div class="main-video">
+                <div class="video">
+                    <iframe width="560" height="315" id="video_id" src="https://www.youtube.com/embed/EqD8iW97p9Q?si=39m4QwgMfL8_0vB2"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3 class="title">Cara Aman Membuang Baterai Bekas - Fakta Menarik</h3>
+                </div>
+            </div>
+
+            <div class="video-list">
+                <div class="vid active">
+                    <img src="image/frame-video/1.jpg" alt="Baterai" data-id="EqD8iW97p9Q?si=kPbywWFxqf6VAOPG">
+                    <h3 class="title">Cara Aman Membuang Baterai Bekas - Fakta Menarik</h3>
+                </div>
+                <div class="vid">
+                    <img src="image/frame-video/2.jpg" alt="Plastik" data-id="qqPRduwuUzs?si=v5FGo3Nyyqg15rpg">
+                    <h3 class="title">9 INOVASI PENGOLAHAN SAMPAH PLASTIK</h3>
+                </div>
+                <div class="vid">
+                    <img src="image/frame-video/3.jpg" alt="Kaca" data-id="Ny8Af_ADvtg?si=tEyf3YKELcoRoZnc">
+                    <h3 class="title">Daur Ulang Limbah Pecahan Kaca Menjadi Pot Bunga</h3>
+                </div>
+                <div class="vid">
+                    <img src="image/frame-video/4.jpg" alt="Residu" data-id="9K1w9IJtZeU?si=YYtvTo8CEr0lRs9o">
+                    <h3 class="title">Tips Mengolah Sampah Masker</h3>
+                </div>
+                <div class="vid">
+                    <img src="image/frame-video/5.jpg" alt="Organik" data-id="kwajGch9cKA?si=2nFzRPFFMaJRnQXc">
+                    <h3 class="title">Cara membuat kompos dari sampah rumah tangga tanpa bau</h3>
+                </div>
+                <div class="vid">
+                    <img src="image/frame-video/6.jpg" alt="Kertas" data-id="ZlGOetNHQ1E?si=k-dz1F61SsULMGr5">
+                    <h3 class="title">INSPIRASI POSITIF: Bagaimana Cara Mendaur Ulang Kertas</h3>
+                </div>
+                <div class="vid">
+                    <img src="image/frame-video/7.jpg" alt="Kardus" data-id="VGUesAmDOF4?si=GLDoetNI1gNic-em">
+                    <h3 class="title">15 DIY - IDE DEKORASI KAMAR PINTEREST YANG AKAN ANDA SUKAI</h3>
+                </div>
+                <div class="vid">
+                    <img src="image/frame-video/8.jpg" alt="Kaleng" data-id="V1SO4OSkGbk?si=5NcJGmi8dDRlfkzF">
+                    <h3 class="title">BURUAN CARI KALENG SUSU BEKAS !! BISA JADI CUAN !!</h3>
+                </div>
+                <div class="vid">
+                    <img src="image/frame-video/9.jpg" alt="Sepatu" data-id="FOGsMlJQSzA?si=bDS4ClP66tz0Fz_x">
+                    <h3 class="title">Banyak yang belum tau.!! Cara memperbaiki/lem sepatu yang jebol agar hasilnya kuat tanpa di jahit</h3>
+                </div>
+                <div class="vid">
+                    <img src="image/frame-video/10.jpg" alt="Baju" data-id="TCo7jEF-aDE?si=rQCubPLVQ5BqVdAu">
+                    <h3 class="title">10 Beautiful Doormat Making || Old Clothes Reuse Idea || Jeans Handmade Things</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
